@@ -1,0 +1,45 @@
+{
+  "name": "info-insch-spfx-sandbox",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-brands": "^5.0.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.8",
+    "@fortawesome/react-fontawesome": "0.0.17",
+    "@microsoft/sp-core-library": "~1.4.1",
+    "@microsoft/sp-lodash-subset": "~1.4.1",
+    "@microsoft/sp-office-ui-fabric-core": "~1.4.1",
+    "@microsoft/sp-webpart-base": "~1.4.1",
+    "@pnp/common": "^1.0.3",
+    "@pnp/logging": "^1.0.3",
+    "@pnp/odata": "^1.0.3",
+    "@pnp/sp": "^1.0.3",
+    "@types/react": "~16.0.40",
+    "@types/react-dom": "~16.0.4",
+    "@types/webpack-env": ">=1.12.1 <1.14.0",
+    "delay": "^2.0.0",
+    "immutability-helper": "^2.6.6",
+    "react": "~16.2.0",
+    "react-dom": "~16.2.0",
+    "reactstrap": "^5.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@microsoft/sp-build-web": "~1.4.1",
+    "@microsoft/sp-module-interfaces": "~1.4.1",
+    "@microsoft/sp-webpart-workbench": "~1.4.1",
+    "gulp": "~3.9.1",
+    "@types/chai": ">=3.4.34 <3.6.0",
+    "@types/mocha": ">=2.2.33 <2.6.0",
+    "ajv": "~5.2.2"
+  }
+}

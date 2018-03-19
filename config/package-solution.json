@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "info-insch-spfx-sandbox-client-side-solution",
+    "id": "3bef10c0-d990-4ca0-944b-f56e47843ce4",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/info-insch-spfx-sandbox.sppkg"
+  }
+}
